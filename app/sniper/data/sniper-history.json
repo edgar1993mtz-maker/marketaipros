@@ -1,0 +1,7 @@
+{
+  "history": [
+    { "date": "2024-02-01", "symbol": "QQQ", "signal": "BUY", "entry": 425, "closePrice": 445.2, "profitLoss": 4.7 },
+    { "date": "2024-02-02", "symbol": "NVDA", "signal": "BUY", "entry": 850, "closePrice": 892.5, "profitLoss": 5 },
+    { "date": "2024-02-03", "symbol": "SPY", "signal": "BUY", "entry": 530, "closePrice": 552.5, "profitLoss": 4.2 }
+  ]
+}

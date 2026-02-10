@@ -1,0 +1,7 @@
+{
+  "topScores": [
+    { "symbol": "AAPL", "score": 9.2, "price": 195.45, "pe": 28.5, "roe": 85.3, "moat": "Brand", "growth": 8.5 },
+    { "symbol": "MSFT", "score": 8.9, "price": 440.22, "pe": 32.1, "roe": 42.1, "moat": "Software", "growth": 7.8 },
+    { "symbol": "BRK.B", "score": 8.7, "price": 645.30, "pe": 15.2, "roe": 15.2, "moat": "Diversified", "growth": 5.2 }
+  ]
+}

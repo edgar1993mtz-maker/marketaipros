@@ -1,0 +1,7 @@
+{
+  "snipers": [
+    { "symbol": "AAPL", "buffettScore": 9.2, "signal": "BUY", "entry": 192, "target": 210, "winRate": 75 },
+    { "symbol": "MSFT", "buffettScore": 8.9, "signal": "BUY", "entry": 435, "target": 480, "winRate": 72 },
+    { "symbol": "GOOGL", "buffettScore": 8.6, "signal": "HOLD", "entry": 142, "target": 155, "winRate": 68 }
+  ]
+}

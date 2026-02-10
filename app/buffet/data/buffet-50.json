@@ -1,0 +1,12 @@
+[
+  { "ticker": "AAPL", "score": 9.2, "category": "Technology" },
+  { "ticker": "MSFT", "score": 8.9, "category": "Technology" },
+  { "ticker": "GOOGL", "score": 8.6, "category": "Technology" },
+  { "ticker": "BERKB", "score": 8.7, "category": "Finance" },
+  { "ticker": "JPM", "score": 8.2, "category": "Finance" },
+  { "ticker": "JNJ", "score": 7.9, "category": "Healthcare" },
+  { "ticker": "PG", "score": 7.8, "category": "Consumer" },
+  { "ticker": "KO", "score": 7.5, "category": "Consumer" },
+  { "ticker": "WMT", "score": 7.6, "category": "Retail" },
+  { "ticker": "BAC", "score": 7.4, "category": "Finance" }
+]

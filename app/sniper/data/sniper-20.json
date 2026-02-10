@@ -1,0 +1,10 @@
+{
+  "entries": [
+    { "symbol": "QQQ", "signal": "BUY", "entry": 445.2, "target": 465, "stopLoss": 435, "confidence": 85 },
+    { "symbol": "SPY", "signal": "BUY", "entry": 552.5, "target": 570, "stopLoss": 540, "confidence": 78 },
+    { "symbol": "NVDA", "signal": "BUY", "entry": 892.5, "target": 950, "stopLoss": 870, "confidence": 82 },
+    { "symbol": "TSLA", "signal": "SELL", "entry": 248.75, "target": 220, "stopLoss": 260, "confidence": 75 },
+    { "symbol": "META", "signal": "BUY", "entry": 505, "target": 540, "stopLoss": 485, "confidence": 79 },
+    { "symbol": "AAPL", "signal": "HOLD", "entry": 195.45, "target": 210, "stopLoss": 185, "confidence": 72 }
+  ]
+}

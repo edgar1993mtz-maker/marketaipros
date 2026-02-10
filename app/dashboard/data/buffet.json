@@ -1,0 +1,7 @@
+{
+  "topScores": [
+    { "symbol": "AAPL", "score": 9.2, "price": 195.45, "change": 2.5 },
+    { "symbol": "MSFT", "score": 8.9, "price": 440.22, "change": 1.8 },
+    { "symbol": "BERKB", "score": 8.7, "price": 645.30, "change": -0.5 }
+  ]
+}

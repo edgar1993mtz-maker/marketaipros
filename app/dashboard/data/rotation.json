@@ -1,0 +1,8 @@
+{
+  "sectors": [
+    { "name": "Technology", "score": 85, "direction": "up" },
+    { "name": "Healthcare", "score": 65, "direction": "neutral" },
+    { "name": "Energy", "score": 35, "direction": "down" },
+    { "name": "Finance", "score": 72, "direction": "up" }
+  ]
+}

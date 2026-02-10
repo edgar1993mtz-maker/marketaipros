@@ -1,0 +1,14 @@
+{
+  "weekNumber": 7,
+  "marketOutlook": "Strong bullish momentum with healthy pullback opportunities in tech sector.",
+  "topMovers": [
+    { "symbol": "NVDA", "change": 5.2 },
+    { "symbol": "TSLA", "change": 3.8 },
+    { "symbol": "META", "change": 4.1 }
+  ],
+  "events": [
+    "Fed Decision - Tomorrow",
+    "Earnings Season - In Progress",
+    "GDP Report - Next Week"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "signals": [
+    { "symbol": "QQQ", "signal": "BUY", "entryPrice": 445.20, "targetPrice": 465.00, "stopLoss": 435.00 },
+    { "symbol": "SPY", "signal": "HOLD", "entryPrice": 552.50, "targetPrice": 570.00, "stopLoss": 540.00 },
+    { "symbol": "TSLA", "signal": "SELL", "entryPrice": 248.75, "targetPrice": 220.00, "stopLoss": 260.00 }
+  ]
+}

@@ -1,6 +1,7 @@
 'use client';
 
-import { LineChart } from '@/components/charts/LineChart';
+import LineChart from '@/components/charts/LineChart';
+
 
 interface SniperChartProps {
   data: any[];

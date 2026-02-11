@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "marketaipros",
   "version": "1.0.0",
   "private": true,
@@ -11,15 +10,16 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\""
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.38.0",
+    "@supabase/supabase-js": "^2.95.3",
+    "@swc/helpers": "^0.5.18",
     "axios": "^1.6.0",
+    "clsx": "^2.1.0",
     "next": "14.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "recharts": "^2.10.0",
-    "zustand": "^4.4.0",
-    "clsx": "^2.1.0",
-    "tailwind-merge": "^2.2.0"
+    "tailwind-merge": "^2.2.0",
+    "zustand": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",

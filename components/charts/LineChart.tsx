@@ -1,23 +1,53 @@
 'use client';
 
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import {
+  LineChart as RechartsLineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer
+} from 'recharts';
 
-interface LineChartProps {
-  data: any[];
+interface ChartPoint {
+  name?: string;
+  value: number;
   [key: string]: any;
 }
 
-export default function LineChartComponent({ data, ...props }: LineChartProps) {
+interface LineChartProps {
+  data: ChartPoint[];
+  dataKey?: string;
+  [key: string]: any;
+}
+
+export default function LineChart({
+  data,
+  dataKey = "value",
+  ...props
+}: LineChartProps) {
   return (
     <ResponsiveContainer width="100%" height={300}>
-      <LineChart data={data} {...props}>
+      <RechartsLineChart data={data} {...props}>
         <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-        <XAxis stroke="#94a3b8" />
+        <XAxis dataKey="name" stroke="#94a3b8" />
         <YAxis stroke="#94a3b8" />
-        <Tooltip contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #475569' }} />
+        <Tooltip
+          contentStyle={{
+            backgroundColor: '#1e293b',
+            border: '1px solid #475569'
+          }}
+        />
         <Legend />
-        <Line type="monotone" dataKey="value" stroke="#f59e0b" strokeWidth={2} />
-      </LineChart>
+        <Line
+          type="monotone"
+          dataKey={dataKey}
+          stroke="#f59e0b"
+          strokeWidth={2}
+        />
+      </RechartsLineChart>
     </ResponsiveContainer>
   );
 }

@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 py-20">
+    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 py-20">
       
       {/* Logo Icon */}
       <div className="flex flex-col items-center mb-6">

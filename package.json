@@ -6,33 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint \"**/*.{js,jsx}\"",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\""
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.38.0",
     "axios": "^1.6.0",
-    "next": "16.1.6",
+    "clsx": "^2.1.0",
+    "next": "^14.2.35",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "recharts": "^2.10.0",
+    "tailwind-merge": "^2.2.0",
     "zustand": "^4.4.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^20.10.0",
     "@types/react": "^18.2.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "autoprefixer": "10.4.14",
-    "eslint": "^9.0.0",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.33.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "postcss": "8.4.21",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "postcss": "^8.5.6",
     "prettier": "^3.1.0",
-    "tailwindcss": "4.1.18",
+    "tailwindcss": "3.4.3",
     "typescript": "^5.3.0"
   }
 }

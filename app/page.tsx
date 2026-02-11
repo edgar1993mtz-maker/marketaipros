@@ -34,6 +34,6 @@ export default function Home() {
       >
         Subscribe on Beehiiv
       </a>
-    </main>
+    </div>
   );
 }

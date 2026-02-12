@@ -5,17 +5,26 @@
   box-sizing: border-box;
 }
 
-/* DO NOT set background-color here */
-/* Tailwind will control all backgrounds */
-
 /* Smooth fonts */
 html, body {
   font-family: var(--font-sans, sans-serif);
   color: inherit;
-  background: transparent; /* allow Tailwind bg-black to work */
+  background: transparent; /* allow Tailwind bg-blackSoft to work */
 }
 
-/* Scrollbar styling (optional, premium look) */
+/* MAP Dark Theme Defaults */
+html.dark body {
+  /* These match your Tailwind custom colors */
+  background-color: #0a0a0a; /* blackSoft */
+  color: #D4AF37; /* gold */
+}
+
+/* Subtle border defaults for dark UI */
+* {
+  border-color: #1a1a1a; /* graySoft */
+}
+
+/* Scrollbar styling (premium MAP look) */
 ::-webkit-scrollbar {
   width: 8px;
 }

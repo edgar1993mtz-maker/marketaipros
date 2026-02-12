@@ -1,24 +1,22 @@
-import js from "@eslint/js";
-import tseslint from "typescript-eslint";
-
-export default [
-  {
-    ignores: [
-      "node_modules/**",
-      ".next/**",
-      "dist/**",
-      "build/**",
-      "public/**",
-    ],
-  },
-  js.configs.recommended,
-  ...tseslint.configs.recommended,
-  {
-    files: ["**/*.{js,jsx,ts,tsx}"],
-    rules: {
-      "@typescript-eslint/no-explicit-any": "off",
-      "@typescript-eslint/no-unused-vars": "off",
-      "no-undef": "off",
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: "class",
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        blackSoft: "#0A0A0A",
+        blackDeep: "#050505",
+        gold: "#D4AF37",
+        goldLight: "#F5E6B3",
+      },
+      boxShadow: {
+        gold: "0 0 20px rgba(212, 175, 55, 0.15)",
+      },
     },
   },
-];
+  plugins: [],
+}

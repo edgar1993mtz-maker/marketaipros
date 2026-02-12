@@ -31,22 +31,41 @@ export default function LineChart({
   return (
     <ResponsiveContainer width="100%" height={300}>
       <RechartsLineChart data={data} {...props}>
-        <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-        <XAxis dataKey="name" stroke="#94a3b8" />
-        <YAxis stroke="#94a3b8" />
+
+        {/* Grid */}
+        <CartesianGrid strokeDasharray="3 3" stroke="#1a1a1a" />
+
+        {/* Axes */}
+        <XAxis dataKey="name" stroke="#D4AF37" tick={{ fill: "#D4AF37" }} />
+        <YAxis stroke="#D4AF37" tick={{ fill: "#D4AF37" }} />
+
+        {/* Tooltip */}
         <Tooltip
           contentStyle={{
-            backgroundColor: '#1e293b',
-            border: '1px solid #475569'
+            backgroundColor: '#0a0a0a',
+            border: '1px solid rgba(212,175,55,0.3)',
+            color: '#D4AF37'
+          }}
+          labelStyle={{ color: '#f5d98c' }}
+        />
+
+        {/* Legend */}
+        <Legend
+          wrapperStyle={{
+            color: '#D4AF37'
           }}
         />
-        <Legend />
+
+        {/* Line */}
         <Line
           type="monotone"
           dataKey={dataKey}
-          stroke="#f59e0b"
+          stroke="#D4AF37"
           strokeWidth={2}
+          dot={{ r: 3, fill: "#D4AF37" }}
+          activeDot={{ r: 5, fill: "#f5d98c" }}
         />
+
       </RechartsLineChart>
     </ResponsiveContainer>
   );

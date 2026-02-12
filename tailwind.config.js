@@ -1,29 +1,22 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
-    "./app/**/*.{js,jsx,ts,tsx}",
-    "./components/**/*.{js,jsx,ts,tsx}",
-    "./pages/**/*.{js,jsx,ts,tsx}"
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
+        blackSoft: "#0A0A0A",
+        blackDeep: "#050505",
         gold: "#D4AF37",
-        goldLight: "#f5d98c",
-        goldDark: "#8c6f1d",
-        blackDeep: "#000000",
-        blackSoft: "#0a0a0a",
-        graySoft: "#1a1a1a",
-
-        // ⭐ THIS LINE FIXES YOUR ENTIRE BACKGROUND ISSUE
-        dark: "#000000",
-      },
-      fontFamily: {
-        sans: ["Inter", "sans-serif"]
+        goldLight: "#F5E6B3",
       },
       boxShadow: {
-        gold: "0 0 20px rgba(212, 175, 55, 0.4)"
-      }
-    }
+        gold: "0 0 20px rgba(212, 175, 55, 0.15)",
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 }

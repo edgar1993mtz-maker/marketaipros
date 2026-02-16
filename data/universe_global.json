@@ -1,0 +1,28 @@
+{
+  "universe": [
+    "DIA",
+    "RSP",
+    "XLE",
+    "XLI",
+    "XLV",
+    "XLB",
+    "XLU",
+    "XLP",
+    "SQQQ",
+    "SLB",
+    "TGT",
+    "PG",
+    "LUV",
+    "USO",
+    "GDX",
+    "EZU",
+    "BHP",
+    "EWJ",
+    "EEM",
+    "AAXJ",
+    "EWZ",
+    "ILF"
+  ],
+  "generated_at": "2026-02-16T02:40:17.611Z",
+  "mode": "MAFI_GLOBAL_ENGINE_COMBINED"
+}

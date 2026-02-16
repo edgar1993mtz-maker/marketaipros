@@ -1,0 +1,54 @@
+[
+    {
+        "symbol": "EURUSD=X",
+        "score": 0
+    },
+    {
+        "symbol": "GBPUSD=X",
+        "score": 0
+    },
+    {
+        "symbol": "JPY=X",
+        "score": 0
+    },
+    {
+        "symbol": "AUDUSD=X",
+        "score": 0
+    },
+    {
+        "symbol": "NZDUSD=X",
+        "score": 0
+    },
+    {
+        "symbol": "CAD=X",
+        "score": 0
+    },
+    {
+        "symbol": "GC=F",
+        "score": 0
+    },
+    {
+        "symbol": "AAPL",
+        "score": 0
+    },
+    {
+        "symbol": "MSFT",
+        "score": 0
+    },
+    {
+        "symbol": "TSLA",
+        "score": 0
+    },
+    {
+        "symbol": "NVDA",
+        "score": 0
+    },
+    {
+        "symbol": "AMZN",
+        "score": 0
+    },
+    {
+        "symbol": "META",
+        "score": 0
+    }
+]

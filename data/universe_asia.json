@@ -1,0 +1,28 @@
+{
+  "region": "Asia",
+  "universe": [
+    "EWJ",
+    "EEM",
+    "AAXJ"
+  ],
+  "original_universe": [
+    "EWJ",
+    "EEM",
+    "FXI",
+    "AAXJ",
+    "TSM",
+    "ASML",
+    "NTES",
+    "TCEHY",
+    "BABA",
+    "BIDU",
+    "JD",
+    "PDD",
+    "SONY",
+    "FXY"
+  ],
+  "generated_at": "2026-02-16T02:40:15.981Z",
+  "mode": "MAFI_GLOBAL_ENGINE",
+  "regime_healthy": true,
+  "regime_score": 87
+}

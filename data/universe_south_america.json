@@ -1,0 +1,18 @@
+{
+  "region": "SouthAmerica",
+  "universe": [
+    "EWZ",
+    "ILF"
+  ],
+  "original_universe": [
+    "EWZ",
+    "ECH",
+    "ILF",
+    "FCX",
+    "TECK"
+  ],
+  "generated_at": "2026-02-16T02:40:17.608Z",
+  "mode": "MAFI_GLOBAL_ENGINE",
+  "regime_healthy": true,
+  "regime_score": 87
+}

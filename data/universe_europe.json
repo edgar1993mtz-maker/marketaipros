@@ -1,0 +1,22 @@
+{
+  "region": "Europe",
+  "universe": [
+    "EZU",
+    "BHP"
+  ],
+  "original_universe": [
+    "EWG",
+    "EWU",
+    "EZU",
+    "FEZ",
+    "SAP",
+    "NVO",
+    "RIO",
+    "BHP",
+    "FXE"
+  ],
+  "generated_at": "2026-02-16T02:40:13.799Z",
+  "mode": "MAFI_GLOBAL_ENGINE",
+  "regime_healthy": true,
+  "regime_score": 100
+}

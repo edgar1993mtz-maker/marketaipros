@@ -6,3 +6,11 @@
     "NEXT_PUBLIC_BASE_URL": "@next_public_base_url"
   }
 }
+{
+  "crons": [
+    {
+      "path": "/functions/fetchIntraday",
+      "schedule": "*/5 13-20 * * MON-FRI"
+    }
+  ]
+}

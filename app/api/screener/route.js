@@ -1,8 +1,9 @@
-export async function GET() {
-  return Response.json({ message: "screener API placeholder" });
-}
+// app/api/screener/route.ts
 
-export async function POST(request) {
-  const body = await request.json();
-  return Response.json({ message: "Processing screener", data: body });
+import { NextResponse } from "next/server";
+import { getMapScreenerRows } from "@/lib/map/screener";
+
+export async function GET() {
+  const rows = await getMapScreenerRows();
+  return NextResponse.json(rows);
 }
